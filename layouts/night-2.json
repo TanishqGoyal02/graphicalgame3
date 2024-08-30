@@ -25315,34 +25315,6 @@
           "RandomizedAngle": 0
         },
         {
-          "name": "Health",
-          "type": "Health::Health",
-          "Health": 10,
-          "CurrentHealth": 0,
-          "MaxHealth": 10,
-          "DamageCooldown": 0,
-          "IsHealthJustDamaged": false,
-          "HealthRegenRate": 0,
-          "HealthRegenDelay": 0,
-          "AllowOverHealing": false,
-          "HitAtLeastOnce": false,
-          "IsJustHealed": false,
-          "CurrentShieldPoints": 2.0247e-320,
-          "MaxShieldPoints": 0,
-          "ShieldDuration": 5,
-          "ShieldRegenRate": 0,
-          "BlockExcessDamage": false,
-          "ShieldRegenDelay": 0,
-          "IsShieldJustDamaged": false,
-          "ChanceToDodge": 0,
-          "DamageToBeApplied": 0,
-          "FlatDamageReduction": 0,
-          "PercentDamageReduction": 0,
-          "IsJustDodged": false,
-          "ShieldDamageTaken": 2.0247e-320,
-          "HealToBeApplied": 0
-        },
-        {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "maxSpeed": 50,
@@ -29146,7 +29118,7 @@
           "parameters": [
             "PixelHeartBar",
             "=",
-            "Player.Health::Health()",
+            "GlobalVariable(Health)",
             ""
           ]
         },
@@ -30100,15 +30072,12 @@
           "actions": [
             {
               "type": {
-                "value": "Health::Health::Hit"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "Player",
                 "Health",
-                "1",
-                "",
-                "",
-                ""
+                "-",
+                "3"
               ]
             },
             {
@@ -30132,14 +30101,12 @@
       "conditions": [
         {
           "type": {
-            "value": "Health::Health::Health"
+            "value": "NumberVariable"
           },
           "parameters": [
-            "Player",
             "Health",
             "<=",
-            "0",
-            ""
+            "0"
           ]
         }
       ],
@@ -30189,15 +30156,12 @@
       "actions": [
         {
           "type": {
-            "value": "Health::Health::Hit"
+            "value": "SetNumberVariable"
           },
           "parameters": [
-            "Player",
             "Health",
-            ".01",
-            "",
-            "",
-            ""
+            "-",
+            ".01"
           ]
         }
       ]
@@ -30220,15 +30184,12 @@
       "actions": [
         {
           "type": {
-            "value": "Health::Health::Hit"
+            "value": "SetNumberVariable"
           },
           "parameters": [
-            "Player",
             "Health",
-            "3",
-            "",
-            "",
-            ""
+            "-",
+            "1"
           ]
         },
         {
@@ -30265,6 +30226,12 @@
             ">",
             "0"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -30280,13 +30247,12 @@
         },
         {
           "type": {
-            "value": "Health::Health::Heal"
+            "value": "SetNumberVariable"
           },
           "parameters": [
-            "Player",
             "Health",
-            "3",
-            ""
+            "+",
+            "3"
           ]
         },
         {
@@ -30312,6 +30278,33 @@
           },
           "parameters": [
             "Health_Buff_Used_Text"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Health",
+            ">",
+            "10"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Health",
+            "=",
+            "10"
           ]
         }
       ]

@@ -1612,13 +1612,19 @@
       "folded": true,
       "name": "GlobalHealthPotionCount",
       "type": "number",
-      "value": 0
+      "value": 4
     },
     {
       "folded": true,
       "name": "GlobalSpeed",
       "type": "number",
       "value": 50
+    },
+    {
+      "folded": true,
+      "name": "Health",
+      "type": "number",
+      "value": 10
     }
   ],
   "layouts": [
