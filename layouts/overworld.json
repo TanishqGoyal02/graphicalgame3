@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.2,
     "snap": false,
-    "zoomFactor": 1.6445453867276876,
+    "zoomFactor": 0.9673796392515818,
     "windowMask": false
   },
   "objectsGroups": [
@@ -2712,23 +2712,6 @@
       "x": 298,
       "y": 443,
       "zOrder": 2046,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 19,
-      "keepRatio": true,
-      "layer": "",
-      "name": "RepairKit",
-      "persistentUuid": "3e169633-e580-4c47-97f3-e4e9d49553b2",
-      "width": 18,
-      "x": 627,
-      "y": 327,
-      "zOrder": 2052,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []

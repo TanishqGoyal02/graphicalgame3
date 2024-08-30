@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.2,
     "snap": false,
-    "zoomFactor": 1.0685777208212497,
+    "zoomFactor": 1.0000000000000495,
     "windowMask": false
   },
   "objectsGroups": [
@@ -335,7 +335,7 @@
       "name": "Road1",
       "persistentUuid": "cce11071-992d-487c-b2d3-4c15bf6dd63b",
       "width": 392,
-      "x": 70,
+      "x": 71,
       "y": 23,
       "zOrder": -218,
       "numberProperties": [],
@@ -724,8 +724,8 @@
       "name": "Ship",
       "persistentUuid": "147afc3e-c609-4104-b8d4-5830d6c6c4a3",
       "width": 0,
-      "x": 783,
-      "y": 170,
+      "x": 782,
+      "y": 176,
       "zOrder": 2048,
       "numberProperties": [],
       "stringProperties": [],
@@ -826,8 +826,8 @@
       "name": "FlareGun",
       "persistentUuid": "f015d6d6-43e2-411e-8330-9b1f17efdfcd",
       "width": 37,
-      "x": 387,
-      "y": 40,
+      "x": 706,
+      "y": 163,
       "zOrder": 2051,
       "numberProperties": [],
       "stringProperties": [],
@@ -5963,6 +5963,15 @@
                 "Ammo",
                 ">",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Visible"
+              },
+              "parameters": [
+                "FlareGun"
               ]
             },
             {

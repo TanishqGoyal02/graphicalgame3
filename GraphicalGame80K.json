@@ -1182,6 +1182,15 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DALLE_2024-08-30_01.57.56_-_A_pixelated_sticker_depiction_of_a_small_vintage-style_plane_ready_to_take_off_from_the_ground._The_plane_is_positioned_straight_on_the_runway_with_Background_Removed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DALLE_2024-08-30_01.57.56_-_A_pixelated_sticker_depiction_of_a_small_vintage-style_plane_ready_to_take_off_from_the_ground._The_plane_is_positioned_straight_on_the_runway_with_Background_Removed.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
