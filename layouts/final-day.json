@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.2,
     "snap": false,
-    "zoomFactor": 0.515156101866001,
+    "zoomFactor": 1.0685777208212497,
     "windowMask": false
   },
   "objectsGroups": [
@@ -155,23 +155,6 @@
       "x": 237,
       "y": 418,
       "zOrder": 2010,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 676,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Water1",
-      "persistentUuid": "8a47bea1-9e7a-4935-9645-63e49dfb1660",
-      "width": 656,
-      "x": 274,
-      "y": -227,
-      "zOrder": -214,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -352,9 +335,9 @@
       "name": "Road1",
       "persistentUuid": "cce11071-992d-487c-b2d3-4c15bf6dd63b",
       "width": 392,
-      "x": 77,
+      "x": 70,
       "y": 23,
-      "zOrder": 2043,
+      "zOrder": -218,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -371,7 +354,7 @@
       "width": 588,
       "x": 53,
       "y": 0,
-      "zOrder": -212,
+      "zOrder": -219,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -404,7 +387,7 @@
       "width": 0,
       "x": 371,
       "y": 52,
-      "zOrder": 2045,
+      "zOrder": 2050,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -430,40 +413,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 44,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Road1",
-      "persistentUuid": "8401901e-a7c7-47ee-b2fb-664359e7b51a",
-      "width": 172,
-      "x": 425,
-      "y": 67,
-      "zOrder": 2043,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 251,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Road1",
-      "persistentUuid": "61310d4a-d038-41c8-adab-69e34bf51cef",
-      "width": 45,
-      "x": 596,
-      "y": 67,
-      "zOrder": 2043,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 42,
       "keepRatio": true,
       "layer": "",
@@ -473,40 +422,6 @@
       "x": 503,
       "y": 26,
       "zOrder": 2046,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 44,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Road1",
-      "persistentUuid": "9e0462a8-a106-4e32-bede-9fe7b2b5443a",
-      "width": 172,
-      "x": 424,
-      "y": 274,
-      "zOrder": 2043,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 44,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Road1",
-      "persistentUuid": "d98555c1-cc0b-4d6e-9e1a-0c2320a55719",
-      "width": 389,
-      "x": 81,
-      "y": 318,
-      "zOrder": 2043,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -815,6 +730,108 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 44,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Road1",
+      "persistentUuid": "13750d9c-d9d6-4d3a-9b2b-605a8f79608f",
+      "width": 392,
+      "x": 70,
+      "y": 316,
+      "zOrder": -218,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 44,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Road1",
+      "persistentUuid": "c3478e52-36ec-4291-a0e7-a81984f0728d",
+      "width": 217,
+      "x": 419,
+      "y": -54,
+      "zOrder": 2043,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 44,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Road1",
+      "persistentUuid": "9f56163a-347a-4549-bdf6-7e52156ff18b",
+      "width": 227,
+      "x": 420,
+      "y": 272,
+      "zOrder": -218,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 44,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Road1",
+      "persistentUuid": "52211586-38c5-496f-a17a-bac1468265ed",
+      "width": 227,
+      "x": 414,
+      "y": 65,
+      "zOrder": -218,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 44,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Road1",
+      "persistentUuid": "118240b3-ef7f-4718-9ffa-e1ba97495081",
+      "width": 245,
+      "x": 496,
+      "y": 169,
+      "zOrder": -218,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 15,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FlareGun",
+      "persistentUuid": "f015d6d6-43e2-411e-8330-9b1f17efdfcd",
+      "width": 37,
+      "x": 387,
+      "y": 40,
+      "zOrder": 2051,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -829,7 +846,7 @@
           "folded": true,
           "name": "Speed",
           "type": "number",
-          "value": 200
+          "value": 65
         },
         {
           "folded": true,
@@ -4376,6 +4393,126 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "FlareGun",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "CZV2ockchMK0Il6Y0z_5Xqg3yC7B-6f8CKxaBkzjmDWOI7tbJ7940UquDVr1ouOZV4_cJZpxpjJhmJe1yYLyPCNTLEY0relsQqaZuQ.webp",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 150,
+                        "y": 60
+                      },
+                      {
+                        "x": 540,
+                        "y": 60
+                      },
+                      {
+                        "x": 540,
+                        "y": 360
+                      },
+                      {
+                        "x": 150,
+                        "y": 360
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Flare",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Flare_1_burning (1).webp",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 12
+                      },
+                      {
+                        "x": 21,
+                        "y": 12
+                      },
+                      {
+                        "x": 21,
+                        "y": 14
+                      },
+                      {
+                        "x": 4,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -4566,6 +4703,12 @@
       },
       {
         "objectName": "Ship"
+      },
+      {
+        "objectName": "FlareGun"
+      },
+      {
+        "objectName": "Flare"
       }
     ]
   },
@@ -5839,10 +5982,11 @@
                 "FireBullet",
                 "Player.CenterX() - 10",
                 "Player.BoundingBoxCenterY() - 15",
-                "Bullet3",
+                "Flare",
                 "Player.MouseX",
                 "Player.MouseY",
-                "175"
+                "175",
+                ""
               ]
             },
             {
@@ -5851,9 +5995,9 @@
               },
               "parameters": [
                 "",
-                "1c25a41e8f0631c7527db60de2a42f3f9720c23bd4e9324b52dfe4fa2f3b9c1c_Hit 6.aac",
+                "valorant-weapon-vandal-made-with-Voicemod-[AudioTrimmer.com].mp3",
                 "",
-                "10",
+                "100",
                 ""
               ]
             },
@@ -6165,29 +6309,7 @@
             "Speed",
             "Text",
             "=",
-            "\"Speed: \" + Player.Speed"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "Attack",
-            "Text",
-            "=",
-            "\"Attack: \" + Player.Attack"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "Ammo",
-            "Text",
-            "=",
-            "\"Ammo: \" + Player.Ammo"
+            "\"Speed: \" + ToString(GlobalVariable(GlobalSpeed))"
           ]
         },
         {
@@ -6198,7 +6320,29 @@
             "HealthPotion",
             "Text",
             "=",
-            "\"Count: \" + Player.HealthPotionCount"
+            "\"Count: \" + ToString(GlobalVariable(GlobalHealthPotionCount))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Ammo",
+            "Text",
+            "=",
+            "\"Ammo: \" + ToString(GlobalVariable(GlobalAmmo))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Attack",
+            "Text",
+            "=",
+            "\"Attack: \" + ToString(GlobalVariable(GlobalAttack))"
           ]
         },
         {
@@ -6209,7 +6353,7 @@
             "Player",
             "TopDownMovement",
             "=",
-            "Player.Speed"
+            "GlobalVariable(GlobalSpeed)"
           ]
         },
         {
@@ -6313,7 +6457,7 @@
           },
           "parameters": [
             "Player",
-            "Portal",
+            "FlareGun",
             "",
             "",
             ""
@@ -6323,12 +6467,10 @@
       "actions": [
         {
           "type": {
-            "value": "Scene"
+            "value": "Cache"
           },
           "parameters": [
-            "",
-            "\"Day 1\"",
-            ""
+            "FlareGun"
           ]
         }
       ]

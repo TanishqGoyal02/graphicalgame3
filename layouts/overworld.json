@@ -8537,9 +8537,9 @@
               },
               "parameters": [
                 "",
-                "1c25a41e8f0631c7527db60de2a42f3f9720c23bd4e9324b52dfe4fa2f3b9c1c_Hit 6.aac",
+                "valorant-weapon-vandal-made-with-Voicemod-[AudioTrimmer.com].mp3",
                 "",
-                "10",
+                "100",
                 ""
               ]
             },
@@ -8676,7 +8676,7 @@
               "parameters": [
                 "Zombie",
                 "Health",
-                "=",
+                "<=",
                 "0",
                 ""
               ]

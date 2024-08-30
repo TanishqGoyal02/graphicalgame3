@@ -1135,6 +1135,53 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Plant/2749017c821557802fbddcfa31a8bd1e386588fa0f8af7fe4eb6afb3f64a4655_Tree.png",
           "name": "Tree.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CZV2ockchMK0Il6Y0z_5Xqg3yC7B-6f8CKxaBkzjmDWOI7tbJ7940UquDVr1ouOZV4_cJZpxpjJhmJe1yYLyPCNTLEY0relsQqaZuQ.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "CZV2ockchMK0Il6Y0z_5Xqg3yC7B-6f8CKxaBkzjmDWOI7tbJ7940UquDVr1ouOZV4_cJZpxpjJhmJe1yYLyPCNTLEY0relsQqaZuQ.webp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Flare_1_burning.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flare_1_burning.webp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Flare_1_burning (1).webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flare_1_burning (1).webp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "valorant-weapon-phantom-made-with-Voicemod-[AudioTrimmer.com].mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "valorant-weapon-phantom-made-with-Voicemod-[AudioTrimmer.com].mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "valorant-weapon-vandal-made-with-Voicemod-[AudioTrimmer.com].mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "valorant-weapon-vandal-made-with-Voicemod-[AudioTrimmer.com].mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
