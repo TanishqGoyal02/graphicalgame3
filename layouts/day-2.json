@@ -1221,7 +1221,7 @@
       "width": 463,
       "x": 343,
       "y": 455,
-      "zOrder": 2043,
+      "zOrder": 2084,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1238,7 +1238,7 @@
       "width": 66,
       "x": 449,
       "y": 585,
-      "zOrder": 2044,
+      "zOrder": 2083,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1255,7 +1255,7 @@
       "width": 62,
       "x": 571,
       "y": 585,
-      "zOrder": 2045,
+      "zOrder": 2082,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -31824,6 +31824,23 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 222,
+      "keepRatio": true,
+      "layer": "RepairKit Found",
+      "name": "TextBorderIntro",
+      "persistentUuid": "9d772b94-f444-43f6-964e-1678463c7076",
+      "width": 447,
+      "x": 327,
+      "y": 441,
+      "zOrder": 2081,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -37208,7 +37225,7 @@
           },
           "parameters": [
             "",
-            "\"Day 2\"",
+            "\"Night 2\"",
             ""
           ]
         }

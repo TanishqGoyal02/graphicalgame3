@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.2,
     "snap": false,
-    "zoomFactor": 2.0742794600523853,
+    "zoomFactor": 0.8195616997322179,
     "windowMask": false
   },
   "objectsGroups": [
@@ -148,8 +148,8 @@
       "name": "CollisionDetect",
       "persistentUuid": "0166d221-c908-425d-8c2d-85f710145da4",
       "width": 452,
-      "x": 318,
-      "y": 423,
+      "x": 315,
+      "y": 419,
       "zOrder": 2000,
       "numberProperties": [],
       "stringProperties": [],
@@ -213,7 +213,7 @@
       "width": 96,
       "x": 703,
       "y": 631,
-      "zOrder": 510,
+      "zOrder": 2060,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -229,7 +229,7 @@
       "width": 96,
       "x": 822,
       "y": 631,
-      "zOrder": 510,
+      "zOrder": 2061,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -775,7 +775,7 @@
       "width": 580,
       "x": 338,
       "y": 465,
-      "zOrder": 2015,
+      "zOrder": 2059,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2746,6 +2746,23 @@
       "x": 229,
       "y": 288,
       "zOrder": 2053,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 226,
+      "keepRatio": true,
+      "layer": "Dialogue",
+      "name": "TextBorderIntro",
+      "persistentUuid": "11320648-82f0-4e3c-9ad9-abe411bfefe3",
+      "width": 605,
+      "x": 324,
+      "y": 451,
+      "zOrder": 2058,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -9117,7 +9134,7 @@
       "isLocked": false,
       "name": "Transition",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": []
     },
@@ -9217,7 +9234,7 @@
       "isLocked": false,
       "name": "ObjectCollection(Tutorial)",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
