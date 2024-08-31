@@ -30090,6 +30090,18 @@
                 "859",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Minecraft Hit - Sound Effect (HD).mp3",
+                "no",
+                "30",
+                ""
+              ]
             }
           ]
         }
@@ -30162,6 +30174,18 @@
             "Health",
             "-",
             ".01"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Minecraft Hit - Sound Effect (HD).mp3",
+            "no",
+            "10",
+            ""
           ]
         }
       ]

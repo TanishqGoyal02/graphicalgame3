@@ -1191,6 +1191,46 @@
         "name": "DALLE_2024-08-30_01.57.56_-_A_pixelated_sticker_depiction_of_a_small_vintage-style_plane_ready_to_take_off_from_the_ground._The_plane_is_positioned_straight_on_the_runway_with_Background_Removed.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "Rocket Launch (Minecraft Sound) - Sound Effect for editing.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Rocket Launch (Minecraft Sound) - Sound Effect for editing.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Rocket Launch.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Rocket Launch.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Minecraft Hit - Sound Effect (HD).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Minecraft Hit - Sound Effect (HD).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Final Fantasy Victory Fanfare - Sound Effect [HQ].mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Final Fantasy Victory Fanfare - Sound Effect [HQ].mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1563,6 +1603,22 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 16,
+      "height": 48,
+      "leftMargin": 16,
+      "name": "TextBorderIntro",
+      "rightMargin": 16,
+      "texture": "Border.png",
+      "tiled": true,
+      "topMargin": 16,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 48,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -1591,6 +1647,9 @@
       },
       {
         "objectName": "Arrow"
+      },
+      {
+        "objectName": "TextBorderIntro"
       }
     ]
   },

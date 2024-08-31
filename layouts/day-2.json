@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.2,
     "snap": false,
-    "zoomFactor": 2.0742794600524004,
+    "zoomFactor": 0.8757653731722069,
     "windowMask": false
   },
   "objectsGroups": [
@@ -36741,6 +36741,18 @@
             "Health",
             "-",
             ".01"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Minecraft Hit - Sound Effect (HD).mp3",
+            "no",
+            "10",
+            ""
           ]
         }
       ]

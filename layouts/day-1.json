@@ -37116,6 +37116,18 @@
             "-",
             ".01"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Minecraft Hit - Sound Effect (HD).mp3",
+            "no",
+            "10",
+            ""
+          ]
         }
       ]
     },

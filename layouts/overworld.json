@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.2,
     "snap": false,
-    "zoomFactor": 0.9673796392515818,
+    "zoomFactor": 2.0742794600523853,
     "windowMask": false
   },
   "objectsGroups": [
@@ -309,7 +309,7 @@
       "width": 37,
       "x": 556,
       "y": 352,
-      "zOrder": 2004,
+      "zOrder": 2056,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -326,7 +326,7 @@
       "width": 37,
       "x": 512,
       "y": 370,
-      "zOrder": 2004,
+      "zOrder": 2055,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -343,7 +343,7 @@
       "width": 37,
       "x": 466,
       "y": 355,
-      "zOrder": 2004,
+      "zOrder": 2054,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -377,7 +377,7 @@
       "width": 37,
       "x": 596,
       "y": 355,
-      "zOrder": 2004,
+      "zOrder": 2057,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1235,8 +1235,8 @@
       "name": "Zombie",
       "persistentUuid": "cc4c2d60-f6a4-4b24-92b4-a7745a0524a9",
       "width": 18,
-      "x": 506,
-      "y": 342,
+      "x": 495,
+      "y": 356,
       "zOrder": 2016,
       "numberProperties": [],
       "stringProperties": [],
@@ -6629,9 +6629,11 @@
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Once"
+                "value": "DepartScene"
               },
-              "parameters": []
+              "parameters": [
+                ""
+              ]
             }
           ],
           "actions": [
@@ -6677,6 +6679,16 @@
               },
               "parameters": [
                 "RepairKit"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Player",
+                "TopDownMovement",
+                "no"
               ]
             }
           ]
@@ -6962,6 +6974,16 @@
                     "ReadyToShoot",
                     "True",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Player",
+                    "TopDownMovement",
+                    "yes"
                   ]
                 }
               ]
@@ -8697,6 +8719,18 @@
                 "859",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Minecraft Hit - Sound Effect (HD).mp3",
+                "no",
+                "20",
+                ""
+              ]
             }
           ]
         }
@@ -8769,6 +8803,18 @@
             "Health",
             "-",
             ".01"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Minecraft Hit - Sound Effect (HD).mp3",
+            "no",
+            "10",
+            ""
           ]
         }
       ]

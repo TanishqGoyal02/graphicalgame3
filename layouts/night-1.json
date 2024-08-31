@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.2,
     "snap": false,
-    "zoomFactor": 0.935823366438485,
+    "zoomFactor": 0.8757653731722089,
     "windowMask": false
   },
   "objectsGroups": [
@@ -33169,22 +33169,6 @@
     },
     {
       "assetStoreId": "",
-      "bottomMargin": 16,
-      "height": 48,
-      "leftMargin": 16,
-      "name": "TextBorderIntro",
-      "rightMargin": 16,
-      "texture": "Border.png",
-      "tiled": true,
-      "topMargin": 16,
-      "type": "PanelSpriteObject::PanelSprite",
-      "width": 48,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
       "name": "Intro2",
       "type": "BitmapText::BitmapTextObject",
       "variables": [],
@@ -34276,9 +34260,6 @@
           },
           {
             "objectName": "YesButton"
-          },
-          {
-            "objectName": "TextBorderIntro"
           },
           {
             "objectName": "NoButton"
@@ -35636,6 +35617,18 @@
                 "859",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Minecraft Hit - Sound Effect (HD).mp3",
+                "no",
+                "20",
+                ""
+              ]
             }
           ]
         }
@@ -35708,6 +35701,18 @@
             "Health",
             "-",
             ".01"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Minecraft Hit - Sound Effect (HD).mp3",
+            "no",
+            "10",
+            ""
           ]
         }
       ]
