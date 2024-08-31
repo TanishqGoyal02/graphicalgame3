@@ -32235,7 +32235,7 @@
           "folded": true,
           "name": "Time",
           "type": "number",
-          "value": 15
+          "value": 60
         },
         {
           "folded": true,
@@ -37072,6 +37072,56 @@
             "",
             "\"Overworld\"",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Health",
+            "=",
+            "10"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "GlobalAttack",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "GlobalAmmo",
+            "=",
+            "20"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "GlobalSpeed",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "GlobalHealthPotionCount",
+            "=",
+            "0"
           ]
         }
       ]

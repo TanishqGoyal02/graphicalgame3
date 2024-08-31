@@ -30615,9 +30615,9 @@
       "layer": "",
       "name": "TextBorderIntro",
       "persistentUuid": "d935bc30-36cd-4240-9c61-0d2ea4d1be6c",
-      "width": 1382,
-      "x": -190,
-      "y": -142,
+      "width": 1485,
+      "x": -180,
+      "y": -144,
       "zOrder": 2091,
       "numberProperties": [],
       "stringProperties": [],
@@ -30636,7 +30636,7 @@
           "folded": true,
           "name": "Time",
           "type": "number",
-          "value": 15
+          "value": 90
         },
         {
           "folded": true,
@@ -35641,6 +35641,56 @@
             "",
             "\"Overworld\"",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "GlobalHealthPotionCount",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "GlobalSpeed",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "GlobalAmmo",
+            "=",
+            "20"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "GlobalAttack",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Health",
+            "=",
+            "10"
           ]
         }
       ]

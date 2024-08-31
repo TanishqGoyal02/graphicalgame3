@@ -4333,6 +4333,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -4343,10 +4345,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 200,
-          "name": "Pathfinding",
           "rotateObject": true,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "animations": [
@@ -6459,6 +6459,56 @@
             "\"Overworld\"",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "GlobalHealthPotionCount",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "GlobalSpeed",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "GlobalAmmo",
+            "=",
+            "20"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "GlobalAttack",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Health",
+            "=",
+            "10"
+          ]
         }
       ]
     },
@@ -6970,6 +7020,56 @@
                 "",
                 "\"Overworld\"",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GlobalHealthPotionCount",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GlobalSpeed",
+                "=",
+                "50"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GlobalAmmo",
+                "=",
+                "20"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GlobalAttack",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Health",
+                "=",
+                "10"
               ]
             }
           ]
